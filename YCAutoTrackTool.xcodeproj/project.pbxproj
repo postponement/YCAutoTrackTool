@@ -1,0 +1,744 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		555AC092BBC004B3AD357C55 /* libPods-YCAutoTrackToolTests.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 08F1A7BB8F9FB4E091B6F922 /* libPods-YCAutoTrackToolTests.a */; };
+		B4F3B1FEC034BAD87876031A /* libPods-YCAutoTrackTool.a in Frameworks */ = {isa = PBXBuildFile; fileRef = CD766F3AAB72AEE93E0EC154 /* libPods-YCAutoTrackTool.a */; };
+		EC689B6CF9D5F3B6724BE934 /* libPods-YCAutoTrackToolUITests.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 17FD55E8F833D6E7ED5AA35F /* libPods-YCAutoTrackToolUITests.a */; };
+		FC0BFEB120F2038E00CE7F42 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = FC0BFEB020F2038E00CE7F42 /* AppDelegate.m */; };
+		FC0BFEB420F2038E00CE7F42 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = FC0BFEB320F2038E00CE7F42 /* ViewController.m */; };
+		FC0BFEB720F2038E00CE7F42 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = FC0BFEB520F2038E00CE7F42 /* Main.storyboard */; };
+		FC0BFEB920F2038F00CE7F42 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = FC0BFEB820F2038F00CE7F42 /* Assets.xcassets */; };
+		FC0BFEBC20F2038F00CE7F42 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = FC0BFEBA20F2038F00CE7F42 /* LaunchScreen.storyboard */; };
+		FC0BFEBF20F2038F00CE7F42 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = FC0BFEBE20F2038F00CE7F42 /* main.m */; };
+		FC0BFEC920F2038F00CE7F42 /* YCAutoTrackToolTests.m in Sources */ = {isa = PBXBuildFile; fileRef = FC0BFEC820F2038F00CE7F42 /* YCAutoTrackToolTests.m */; };
+		FC0BFED420F2038F00CE7F42 /* YCAutoTrackToolUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = FC0BFED320F2038F00CE7F42 /* YCAutoTrackToolUITests.m */; };
+		FC0BFEEA20F2375A00CE7F42 /* YCTrackTool.m in Sources */ = {isa = PBXBuildFile; fileRef = FC0BFEE920F2375A00CE7F42 /* YCTrackTool.m */; };
+		FC0BFEF220F23D9000CE7F42 /* YCTrack.plist in Resources */ = {isa = PBXBuildFile; fileRef = FC0BFEF120F23D9000CE7F42 /* YCTrack.plist */; };
+		FC0BFEF520F23DB100CE7F42 /* YCViewControllerA.m in Sources */ = {isa = PBXBuildFile; fileRef = FC0BFEF420F23DB100CE7F42 /* YCViewControllerA.m */; };
+		FC0BFEF820F23DC100CE7F42 /* YCViewControllerB.m in Sources */ = {isa = PBXBuildFile; fileRef = FC0BFEF720F23DC100CE7F42 /* YCViewControllerB.m */; };
+		FC0BFF0020F242E100CE7F42 /* YCStrackDataHandler.m in Sources */ = {isa = PBXBuildFile; fileRef = FC0BFEFD20F242E000CE7F42 /* YCStrackDataHandler.m */; };
+		FC0BFF0120F242E100CE7F42 /* Aspects.m in Sources */ = {isa = PBXBuildFile; fileRef = FC0BFEFE20F242E000CE7F42 /* Aspects.m */; };
+		FC0BFF0220F242E100CE7F42 /* YCStatisticManager.m in Sources */ = {isa = PBXBuildFile; fileRef = FC0BFEFF20F242E000CE7F42 /* YCStatisticManager.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		FC0BFEC520F2038F00CE7F42 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = FC0BFEA420F2038D00CE7F42 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = FC0BFEAB20F2038E00CE7F42;
+			remoteInfo = YCAutoTrackTool;
+		};
+		FC0BFED020F2038F00CE7F42 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = FC0BFEA420F2038D00CE7F42 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = FC0BFEAB20F2038E00CE7F42;
+			remoteInfo = YCAutoTrackTool;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		0475871B9FFD15DABB2F9A2E /* Pods-YCAutoTrackTool.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-YCAutoTrackTool.debug.xcconfig"; path = "Pods/Target Support Files/Pods-YCAutoTrackTool/Pods-YCAutoTrackTool.debug.xcconfig"; sourceTree = "<group>"; };
+		08F1A7BB8F9FB4E091B6F922 /* libPods-YCAutoTrackToolTests.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-YCAutoTrackToolTests.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		17FD55E8F833D6E7ED5AA35F /* libPods-YCAutoTrackToolUITests.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-YCAutoTrackToolUITests.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		70F01C27B0E578FEF1C61EF5 /* Pods-YCAutoTrackToolTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-YCAutoTrackToolTests.release.xcconfig"; path = "Pods/Target Support Files/Pods-YCAutoTrackToolTests/Pods-YCAutoTrackToolTests.release.xcconfig"; sourceTree = "<group>"; };
+		7A8DC50EF14A0CA5E23CFF16 /* Pods-YCAutoTrackTool.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-YCAutoTrackTool.release.xcconfig"; path = "Pods/Target Support Files/Pods-YCAutoTrackTool/Pods-YCAutoTrackTool.release.xcconfig"; sourceTree = "<group>"; };
+		89D3BDB17962E3B4DC994E21 /* Pods-YCAutoTrackToolUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-YCAutoTrackToolUITests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-YCAutoTrackToolUITests/Pods-YCAutoTrackToolUITests.debug.xcconfig"; sourceTree = "<group>"; };
+		C336F44DEAD94EFD757F40DC /* Pods-YCAutoTrackToolTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-YCAutoTrackToolTests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-YCAutoTrackToolTests/Pods-YCAutoTrackToolTests.debug.xcconfig"; sourceTree = "<group>"; };
+		CD766F3AAB72AEE93E0EC154 /* libPods-YCAutoTrackTool.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-YCAutoTrackTool.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		F017CAE4F65209A1627488C5 /* Pods-YCAutoTrackToolUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-YCAutoTrackToolUITests.release.xcconfig"; path = "Pods/Target Support Files/Pods-YCAutoTrackToolUITests/Pods-YCAutoTrackToolUITests.release.xcconfig"; sourceTree = "<group>"; };
+		FC0BFEAC20F2038E00CE7F42 /* YCAutoTrackTool.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = YCAutoTrackTool.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		FC0BFEAF20F2038E00CE7F42 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		FC0BFEB020F2038E00CE7F42 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		FC0BFEB220F2038E00CE7F42 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		FC0BFEB320F2038E00CE7F42 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		FC0BFEB620F2038E00CE7F42 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		FC0BFEB820F2038F00CE7F42 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		FC0BFEBB20F2038F00CE7F42 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		FC0BFEBD20F2038F00CE7F42 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		FC0BFEBE20F2038F00CE7F42 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		FC0BFEC420F2038F00CE7F42 /* YCAutoTrackToolTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = YCAutoTrackToolTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		FC0BFEC820F2038F00CE7F42 /* YCAutoTrackToolTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = YCAutoTrackToolTests.m; sourceTree = "<group>"; };
+		FC0BFECA20F2038F00CE7F42 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		FC0BFECF20F2038F00CE7F42 /* YCAutoTrackToolUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = YCAutoTrackToolUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		FC0BFED320F2038F00CE7F42 /* YCAutoTrackToolUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = YCAutoTrackToolUITests.m; sourceTree = "<group>"; };
+		FC0BFED520F2038F00CE7F42 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		FC0BFEE820F2375A00CE7F42 /* YCTrackTool.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = YCTrackTool.h; sourceTree = "<group>"; };
+		FC0BFEE920F2375A00CE7F42 /* YCTrackTool.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = YCTrackTool.m; sourceTree = "<group>"; };
+		FC0BFEF120F23D9000CE7F42 /* YCTrack.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = YCTrack.plist; sourceTree = "<group>"; };
+		FC0BFEF320F23DB100CE7F42 /* YCViewControllerA.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = YCViewControllerA.h; sourceTree = "<group>"; };
+		FC0BFEF420F23DB100CE7F42 /* YCViewControllerA.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = YCViewControllerA.m; sourceTree = "<group>"; };
+		FC0BFEF620F23DC100CE7F42 /* YCViewControllerB.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = YCViewControllerB.h; sourceTree = "<group>"; };
+		FC0BFEF720F23DC100CE7F42 /* YCViewControllerB.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = YCViewControllerB.m; sourceTree = "<group>"; };
+		FC0BFEFA20F242E000CE7F42 /* Aspects.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Aspects.h; sourceTree = "<group>"; };
+		FC0BFEFB20F242E000CE7F42 /* YCStrackDataHandler.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = YCStrackDataHandler.h; sourceTree = "<group>"; };
+		FC0BFEFC20F242E000CE7F42 /* YCStatisticManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = YCStatisticManager.h; sourceTree = "<group>"; };
+		FC0BFEFD20F242E000CE7F42 /* YCStrackDataHandler.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = YCStrackDataHandler.m; sourceTree = "<group>"; };
+		FC0BFEFE20F242E000CE7F42 /* Aspects.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Aspects.m; sourceTree = "<group>"; };
+		FC0BFEFF20F242E000CE7F42 /* YCStatisticManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = YCStatisticManager.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		FC0BFEA920F2038E00CE7F42 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B4F3B1FEC034BAD87876031A /* libPods-YCAutoTrackTool.a in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FC0BFEC120F2038F00CE7F42 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				555AC092BBC004B3AD357C55 /* libPods-YCAutoTrackToolTests.a in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FC0BFECC20F2038F00CE7F42 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				EC689B6CF9D5F3B6724BE934 /* libPods-YCAutoTrackToolUITests.a in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		53DFCCEADC4DE01C5A398736 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				CD766F3AAB72AEE93E0EC154 /* libPods-YCAutoTrackTool.a */,
+				08F1A7BB8F9FB4E091B6F922 /* libPods-YCAutoTrackToolTests.a */,
+				17FD55E8F833D6E7ED5AA35F /* libPods-YCAutoTrackToolUITests.a */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		B4192F0880B3C3B733BD8E11 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				0475871B9FFD15DABB2F9A2E /* Pods-YCAutoTrackTool.debug.xcconfig */,
+				7A8DC50EF14A0CA5E23CFF16 /* Pods-YCAutoTrackTool.release.xcconfig */,
+				C336F44DEAD94EFD757F40DC /* Pods-YCAutoTrackToolTests.debug.xcconfig */,
+				70F01C27B0E578FEF1C61EF5 /* Pods-YCAutoTrackToolTests.release.xcconfig */,
+				89D3BDB17962E3B4DC994E21 /* Pods-YCAutoTrackToolUITests.debug.xcconfig */,
+				F017CAE4F65209A1627488C5 /* Pods-YCAutoTrackToolUITests.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		FC0BFEA320F2038D00CE7F42 = {
+			isa = PBXGroup;
+			children = (
+				FC0BFEAE20F2038E00CE7F42 /* YCAutoTrackTool */,
+				FC0BFEC720F2038F00CE7F42 /* YCAutoTrackToolTests */,
+				FC0BFED220F2038F00CE7F42 /* YCAutoTrackToolUITests */,
+				FC0BFEAD20F2038E00CE7F42 /* Products */,
+				B4192F0880B3C3B733BD8E11 /* Pods */,
+				53DFCCEADC4DE01C5A398736 /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		FC0BFEAD20F2038E00CE7F42 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				FC0BFEAC20F2038E00CE7F42 /* YCAutoTrackTool.app */,
+				FC0BFEC420F2038F00CE7F42 /* YCAutoTrackToolTests.xctest */,
+				FC0BFECF20F2038F00CE7F42 /* YCAutoTrackToolUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		FC0BFEAE20F2038E00CE7F42 /* YCAutoTrackTool */ = {
+			isa = PBXGroup;
+			children = (
+				FC0BFEE120F20A8300CE7F42 /* YCTrackTool */,
+				FC0BFEAF20F2038E00CE7F42 /* AppDelegate.h */,
+				FC0BFEB020F2038E00CE7F42 /* AppDelegate.m */,
+				FC0BFEB220F2038E00CE7F42 /* ViewController.h */,
+				FC0BFEB320F2038E00CE7F42 /* ViewController.m */,
+				FC0BFEF320F23DB100CE7F42 /* YCViewControllerA.h */,
+				FC0BFEF420F23DB100CE7F42 /* YCViewControllerA.m */,
+				FC0BFEF620F23DC100CE7F42 /* YCViewControllerB.h */,
+				FC0BFEF720F23DC100CE7F42 /* YCViewControllerB.m */,
+				FC0BFEB520F2038E00CE7F42 /* Main.storyboard */,
+				FC0BFEB820F2038F00CE7F42 /* Assets.xcassets */,
+				FC0BFEBA20F2038F00CE7F42 /* LaunchScreen.storyboard */,
+				FC0BFEBD20F2038F00CE7F42 /* Info.plist */,
+				FC0BFEBE20F2038F00CE7F42 /* main.m */,
+			);
+			path = YCAutoTrackTool;
+			sourceTree = "<group>";
+		};
+		FC0BFEC720F2038F00CE7F42 /* YCAutoTrackToolTests */ = {
+			isa = PBXGroup;
+			children = (
+				FC0BFEC820F2038F00CE7F42 /* YCAutoTrackToolTests.m */,
+				FC0BFECA20F2038F00CE7F42 /* Info.plist */,
+			);
+			path = YCAutoTrackToolTests;
+			sourceTree = "<group>";
+		};
+		FC0BFED220F2038F00CE7F42 /* YCAutoTrackToolUITests */ = {
+			isa = PBXGroup;
+			children = (
+				FC0BFED320F2038F00CE7F42 /* YCAutoTrackToolUITests.m */,
+				FC0BFED520F2038F00CE7F42 /* Info.plist */,
+			);
+			path = YCAutoTrackToolUITests;
+			sourceTree = "<group>";
+		};
+		FC0BFEE120F20A8300CE7F42 /* YCTrackTool */ = {
+			isa = PBXGroup;
+			children = (
+				FC0BFEE820F2375A00CE7F42 /* YCTrackTool.h */,
+				FC0BFEE920F2375A00CE7F42 /* YCTrackTool.m */,
+				FC0BFEF120F23D9000CE7F42 /* YCTrack.plist */,
+				FC0BFEF920F242E000CE7F42 /* YCDataHandler */,
+			);
+			path = YCTrackTool;
+			sourceTree = "<group>";
+		};
+		FC0BFEF920F242E000CE7F42 /* YCDataHandler */ = {
+			isa = PBXGroup;
+			children = (
+				FC0BFEFA20F242E000CE7F42 /* Aspects.h */,
+				FC0BFEFE20F242E000CE7F42 /* Aspects.m */,
+				FC0BFEFB20F242E000CE7F42 /* YCStrackDataHandler.h */,
+				FC0BFEFD20F242E000CE7F42 /* YCStrackDataHandler.m */,
+				FC0BFEFC20F242E000CE7F42 /* YCStatisticManager.h */,
+				FC0BFEFF20F242E000CE7F42 /* YCStatisticManager.m */,
+			);
+			path = YCDataHandler;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		FC0BFEAB20F2038E00CE7F42 /* YCAutoTrackTool */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = FC0BFED820F2038F00CE7F42 /* Build configuration list for PBXNativeTarget "YCAutoTrackTool" */;
+			buildPhases = (
+				F3488B72F428461C6BEAB85C /* [CP] Check Pods Manifest.lock */,
+				FC0BFEA820F2038E00CE7F42 /* Sources */,
+				FC0BFEA920F2038E00CE7F42 /* Frameworks */,
+				FC0BFEAA20F2038E00CE7F42 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = YCAutoTrackTool;
+			productName = YCAutoTrackTool;
+			productReference = FC0BFEAC20F2038E00CE7F42 /* YCAutoTrackTool.app */;
+			productType = "com.apple.product-type.application";
+		};
+		FC0BFEC320F2038F00CE7F42 /* YCAutoTrackToolTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = FC0BFEDB20F2038F00CE7F42 /* Build configuration list for PBXNativeTarget "YCAutoTrackToolTests" */;
+			buildPhases = (
+				0F9EFB2AF9E90E9C73578EF7 /* [CP] Check Pods Manifest.lock */,
+				FC0BFEC020F2038F00CE7F42 /* Sources */,
+				FC0BFEC120F2038F00CE7F42 /* Frameworks */,
+				FC0BFEC220F2038F00CE7F42 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				FC0BFEC620F2038F00CE7F42 /* PBXTargetDependency */,
+			);
+			name = YCAutoTrackToolTests;
+			productName = YCAutoTrackToolTests;
+			productReference = FC0BFEC420F2038F00CE7F42 /* YCAutoTrackToolTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		FC0BFECE20F2038F00CE7F42 /* YCAutoTrackToolUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = FC0BFEDE20F2038F00CE7F42 /* Build configuration list for PBXNativeTarget "YCAutoTrackToolUITests" */;
+			buildPhases = (
+				0AA8ED1793AFCF12B0E90844 /* [CP] Check Pods Manifest.lock */,
+				FC0BFECB20F2038F00CE7F42 /* Sources */,
+				FC0BFECC20F2038F00CE7F42 /* Frameworks */,
+				FC0BFECD20F2038F00CE7F42 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				FC0BFED120F2038F00CE7F42 /* PBXTargetDependency */,
+			);
+			name = YCAutoTrackToolUITests;
+			productName = YCAutoTrackToolUITests;
+			productReference = FC0BFECF20F2038F00CE7F42 /* YCAutoTrackToolUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		FC0BFEA420F2038D00CE7F42 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0940;
+				ORGANIZATIONNAME = yidaoyongche;
+				TargetAttributes = {
+					FC0BFEAB20F2038E00CE7F42 = {
+						CreatedOnToolsVersion = 9.4.1;
+					};
+					FC0BFEC320F2038F00CE7F42 = {
+						CreatedOnToolsVersion = 9.4.1;
+						TestTargetID = FC0BFEAB20F2038E00CE7F42;
+					};
+					FC0BFECE20F2038F00CE7F42 = {
+						CreatedOnToolsVersion = 9.4.1;
+						TestTargetID = FC0BFEAB20F2038E00CE7F42;
+					};
+				};
+			};
+			buildConfigurationList = FC0BFEA720F2038D00CE7F42 /* Build configuration list for PBXProject "YCAutoTrackTool" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = FC0BFEA320F2038D00CE7F42;
+			productRefGroup = FC0BFEAD20F2038E00CE7F42 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				FC0BFEAB20F2038E00CE7F42 /* YCAutoTrackTool */,
+				FC0BFEC320F2038F00CE7F42 /* YCAutoTrackToolTests */,
+				FC0BFECE20F2038F00CE7F42 /* YCAutoTrackToolUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		FC0BFEAA20F2038E00CE7F42 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FC0BFEF220F23D9000CE7F42 /* YCTrack.plist in Resources */,
+				FC0BFEBC20F2038F00CE7F42 /* LaunchScreen.storyboard in Resources */,
+				FC0BFEB920F2038F00CE7F42 /* Assets.xcassets in Resources */,
+				FC0BFEB720F2038E00CE7F42 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FC0BFEC220F2038F00CE7F42 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FC0BFECD20F2038F00CE7F42 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		0AA8ED1793AFCF12B0E90844 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-YCAutoTrackToolUITests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		0F9EFB2AF9E90E9C73578EF7 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-YCAutoTrackToolTests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		F3488B72F428461C6BEAB85C /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-YCAutoTrackTool-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		FC0BFEA820F2038E00CE7F42 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FC0BFF0020F242E100CE7F42 /* YCStrackDataHandler.m in Sources */,
+				FC0BFEB420F2038E00CE7F42 /* ViewController.m in Sources */,
+				FC0BFEF520F23DB100CE7F42 /* YCViewControllerA.m in Sources */,
+				FC0BFEBF20F2038F00CE7F42 /* main.m in Sources */,
+				FC0BFEEA20F2375A00CE7F42 /* YCTrackTool.m in Sources */,
+				FC0BFEB120F2038E00CE7F42 /* AppDelegate.m in Sources */,
+				FC0BFEF820F23DC100CE7F42 /* YCViewControllerB.m in Sources */,
+				FC0BFF0220F242E100CE7F42 /* YCStatisticManager.m in Sources */,
+				FC0BFF0120F242E100CE7F42 /* Aspects.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FC0BFEC020F2038F00CE7F42 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FC0BFEC920F2038F00CE7F42 /* YCAutoTrackToolTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FC0BFECB20F2038F00CE7F42 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FC0BFED420F2038F00CE7F42 /* YCAutoTrackToolUITests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		FC0BFEC620F2038F00CE7F42 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = FC0BFEAB20F2038E00CE7F42 /* YCAutoTrackTool */;
+			targetProxy = FC0BFEC520F2038F00CE7F42 /* PBXContainerItemProxy */;
+		};
+		FC0BFED120F2038F00CE7F42 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = FC0BFEAB20F2038E00CE7F42 /* YCAutoTrackTool */;
+			targetProxy = FC0BFED020F2038F00CE7F42 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		FC0BFEB520F2038E00CE7F42 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				FC0BFEB620F2038E00CE7F42 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		FC0BFEBA20F2038F00CE7F42 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				FC0BFEBB20F2038F00CE7F42 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		FC0BFED620F2038F00CE7F42 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.4;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		FC0BFED720F2038F00CE7F42 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.4;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		FC0BFED920F2038F00CE7F42 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 0475871B9FFD15DABB2F9A2E /* Pods-YCAutoTrackTool.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 7DWTZTE5RX;
+				INFOPLIST_FILE = YCAutoTrackTool/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = test.YCAutoTrackTool;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		FC0BFEDA20F2038F00CE7F42 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 7A8DC50EF14A0CA5E23CFF16 /* Pods-YCAutoTrackTool.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 7DWTZTE5RX;
+				INFOPLIST_FILE = YCAutoTrackTool/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = test.YCAutoTrackTool;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		FC0BFEDC20F2038F00CE7F42 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = C336F44DEAD94EFD757F40DC /* Pods-YCAutoTrackToolTests.debug.xcconfig */;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 7DWTZTE5RX;
+				INFOPLIST_FILE = YCAutoTrackToolTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = test.YCAutoTrackToolTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/YCAutoTrackTool.app/YCAutoTrackTool";
+			};
+			name = Debug;
+		};
+		FC0BFEDD20F2038F00CE7F42 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 70F01C27B0E578FEF1C61EF5 /* Pods-YCAutoTrackToolTests.release.xcconfig */;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 7DWTZTE5RX;
+				INFOPLIST_FILE = YCAutoTrackToolTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = test.YCAutoTrackToolTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/YCAutoTrackTool.app/YCAutoTrackTool";
+			};
+			name = Release;
+		};
+		FC0BFEDF20F2038F00CE7F42 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 89D3BDB17962E3B4DC994E21 /* Pods-YCAutoTrackToolUITests.debug.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 7DWTZTE5RX;
+				INFOPLIST_FILE = YCAutoTrackToolUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = test.YCAutoTrackToolUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = YCAutoTrackTool;
+			};
+			name = Debug;
+		};
+		FC0BFEE020F2038F00CE7F42 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = F017CAE4F65209A1627488C5 /* Pods-YCAutoTrackToolUITests.release.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 7DWTZTE5RX;
+				INFOPLIST_FILE = YCAutoTrackToolUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = test.YCAutoTrackToolUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = YCAutoTrackTool;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		FC0BFEA720F2038D00CE7F42 /* Build configuration list for PBXProject "YCAutoTrackTool" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				FC0BFED620F2038F00CE7F42 /* Debug */,
+				FC0BFED720F2038F00CE7F42 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		FC0BFED820F2038F00CE7F42 /* Build configuration list for PBXNativeTarget "YCAutoTrackTool" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				FC0BFED920F2038F00CE7F42 /* Debug */,
+				FC0BFEDA20F2038F00CE7F42 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		FC0BFEDB20F2038F00CE7F42 /* Build configuration list for PBXNativeTarget "YCAutoTrackToolTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				FC0BFEDC20F2038F00CE7F42 /* Debug */,
+				FC0BFEDD20F2038F00CE7F42 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		FC0BFEDE20F2038F00CE7F42 /* Build configuration list for PBXNativeTarget "YCAutoTrackToolUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				FC0BFEDF20F2038F00CE7F42 /* Debug */,
+				FC0BFEE020F2038F00CE7F42 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = FC0BFEA420F2038D00CE7F42 /* Project object */;
+}
