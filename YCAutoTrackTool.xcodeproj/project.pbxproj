@@ -18,13 +18,13 @@
 		FC0BFEBF20F2038F00CE7F42 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = FC0BFEBE20F2038F00CE7F42 /* main.m */; };
 		FC0BFEC920F2038F00CE7F42 /* YCAutoTrackToolTests.m in Sources */ = {isa = PBXBuildFile; fileRef = FC0BFEC820F2038F00CE7F42 /* YCAutoTrackToolTests.m */; };
 		FC0BFED420F2038F00CE7F42 /* YCAutoTrackToolUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = FC0BFED320F2038F00CE7F42 /* YCAutoTrackToolUITests.m */; };
-		FC0BFEEA20F2375A00CE7F42 /* YCTrackTool.m in Sources */ = {isa = PBXBuildFile; fileRef = FC0BFEE920F2375A00CE7F42 /* YCTrackTool.m */; };
-		FC0BFEF220F23D9000CE7F42 /* YCTrack.plist in Resources */ = {isa = PBXBuildFile; fileRef = FC0BFEF120F23D9000CE7F42 /* YCTrack.plist */; };
 		FC0BFEF520F23DB100CE7F42 /* YCViewControllerA.m in Sources */ = {isa = PBXBuildFile; fileRef = FC0BFEF420F23DB100CE7F42 /* YCViewControllerA.m */; };
 		FC0BFEF820F23DC100CE7F42 /* YCViewControllerB.m in Sources */ = {isa = PBXBuildFile; fileRef = FC0BFEF720F23DC100CE7F42 /* YCViewControllerB.m */; };
 		FC0BFF0020F242E100CE7F42 /* YCStrackDataHandler.m in Sources */ = {isa = PBXBuildFile; fileRef = FC0BFEFD20F242E000CE7F42 /* YCStrackDataHandler.m */; };
 		FC0BFF0120F242E100CE7F42 /* Aspects.m in Sources */ = {isa = PBXBuildFile; fileRef = FC0BFEFE20F242E000CE7F42 /* Aspects.m */; };
 		FC0BFF0220F242E100CE7F42 /* YCStatisticManager.m in Sources */ = {isa = PBXBuildFile; fileRef = FC0BFEFF20F242E000CE7F42 /* YCStatisticManager.m */; };
+		FCBD23E420FC3F5000AAC6E3 /* YCTrack.plist in Resources */ = {isa = PBXBuildFile; fileRef = FCBD23E120FC3F5000AAC6E3 /* YCTrack.plist */; };
+		FCBD23E520FC3F5000AAC6E3 /* YCTrackTool.m in Sources */ = {isa = PBXBuildFile; fileRef = FCBD23E320FC3F5000AAC6E3 /* YCTrackTool.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -70,9 +70,6 @@
 		FC0BFECF20F2038F00CE7F42 /* YCAutoTrackToolUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = YCAutoTrackToolUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		FC0BFED320F2038F00CE7F42 /* YCAutoTrackToolUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = YCAutoTrackToolUITests.m; sourceTree = "<group>"; };
 		FC0BFED520F2038F00CE7F42 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		FC0BFEE820F2375A00CE7F42 /* YCTrackTool.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = YCTrackTool.h; sourceTree = "<group>"; };
-		FC0BFEE920F2375A00CE7F42 /* YCTrackTool.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = YCTrackTool.m; sourceTree = "<group>"; };
-		FC0BFEF120F23D9000CE7F42 /* YCTrack.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = YCTrack.plist; sourceTree = "<group>"; };
 		FC0BFEF320F23DB100CE7F42 /* YCViewControllerA.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = YCViewControllerA.h; sourceTree = "<group>"; };
 		FC0BFEF420F23DB100CE7F42 /* YCViewControllerA.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = YCViewControllerA.m; sourceTree = "<group>"; };
 		FC0BFEF620F23DC100CE7F42 /* YCViewControllerB.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = YCViewControllerB.h; sourceTree = "<group>"; };
@@ -83,6 +80,9 @@
 		FC0BFEFD20F242E000CE7F42 /* YCStrackDataHandler.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = YCStrackDataHandler.m; sourceTree = "<group>"; };
 		FC0BFEFE20F242E000CE7F42 /* Aspects.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Aspects.m; sourceTree = "<group>"; };
 		FC0BFEFF20F242E000CE7F42 /* YCStatisticManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = YCStatisticManager.m; sourceTree = "<group>"; };
+		FCBD23E120FC3F5000AAC6E3 /* YCTrack.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = YCTrack.plist; sourceTree = "<group>"; };
+		FCBD23E220FC3F5000AAC6E3 /* YCTrackTool.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = YCTrackTool.h; sourceTree = "<group>"; };
+		FCBD23E320FC3F5000AAC6E3 /* YCTrackTool.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = YCTrackTool.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -200,9 +200,7 @@
 		FC0BFEE120F20A8300CE7F42 /* YCTrackTool */ = {
 			isa = PBXGroup;
 			children = (
-				FC0BFEE820F2375A00CE7F42 /* YCTrackTool.h */,
-				FC0BFEE920F2375A00CE7F42 /* YCTrackTool.m */,
-				FC0BFEF120F23D9000CE7F42 /* YCTrack.plist */,
+				FCBD23E020FC3F5000AAC6E3 /* Core */,
 				FC0BFEF920F242E000CE7F42 /* YCDataHandler */,
 			);
 			path = YCTrackTool;
@@ -219,6 +217,16 @@
 				FC0BFEFF20F242E000CE7F42 /* YCStatisticManager.m */,
 			);
 			path = YCDataHandler;
+			sourceTree = "<group>";
+		};
+		FCBD23E020FC3F5000AAC6E3 /* Core */ = {
+			isa = PBXGroup;
+			children = (
+				FCBD23E120FC3F5000AAC6E3 /* YCTrack.plist */,
+				FCBD23E220FC3F5000AAC6E3 /* YCTrackTool.h */,
+				FCBD23E320FC3F5000AAC6E3 /* YCTrackTool.m */,
+			);
+			path = Core;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -327,7 +335,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				FC0BFEF220F23D9000CE7F42 /* YCTrack.plist in Resources */,
+				FCBD23E420FC3F5000AAC6E3 /* YCTrack.plist in Resources */,
 				FC0BFEBC20F2038F00CE7F42 /* LaunchScreen.storyboard in Resources */,
 				FC0BFEB920F2038F00CE7F42 /* Assets.xcassets in Resources */,
 				FC0BFEB720F2038E00CE7F42 /* Main.storyboard in Resources */,
@@ -416,11 +424,11 @@
 				FC0BFEB420F2038E00CE7F42 /* ViewController.m in Sources */,
 				FC0BFEF520F23DB100CE7F42 /* YCViewControllerA.m in Sources */,
 				FC0BFEBF20F2038F00CE7F42 /* main.m in Sources */,
-				FC0BFEEA20F2375A00CE7F42 /* YCTrackTool.m in Sources */,
 				FC0BFEB120F2038E00CE7F42 /* AppDelegate.m in Sources */,
 				FC0BFEF820F23DC100CE7F42 /* YCViewControllerB.m in Sources */,
 				FC0BFF0220F242E100CE7F42 /* YCStatisticManager.m in Sources */,
 				FC0BFF0120F242E100CE7F42 /* Aspects.m in Sources */,
+				FCBD23E520FC3F5000AAC6E3 /* YCTrackTool.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
